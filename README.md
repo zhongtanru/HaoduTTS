@@ -1,5 +1,2 @@
-Hello, I'm Zhong Tanru,
-this is a README, 
-the copyright is owned by ZQH, 
-please don't plagiarize. 
-The right of interpretation is reserved by ZQH.
+
+Hello, I’m Zhong Tanru. I am dedicated to Text-to-Speech (TTS) development, focusing on voice services that support English learning and teaching. 
