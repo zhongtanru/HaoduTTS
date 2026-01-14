@@ -1,8 +1,29 @@
-本软件使用了 edge-tts 库（遵循 GNU Lesser General Public License v3 协议），该库位于安装目录下的 _internal/edge_tts 文件夹中。
-【开源库致谢】
-本软件使用了以下开源项目：
-* TTS引擎: edge-tts (MIT), kokoro-onnx (MIT), kokoro model (Apache 2.0)
-* 音频处理: NumPy, SciPy, sounddevice, soundfile (BSD/MIT), ffmpeg (LGPLv2.1)
-* 系统交互: ollama (MIT), pyperclip, pywin32 (BSD/PSF)
+【开源软件声明】
 
-Copyright © 2025 Haodu (钟钦恒).
+本软件使用了以下第三方开源项目：
+
+TTS 引擎:
+• edge-tts — GNU Lesser General Public License v3.0 (LGPLv3)
+（注：仅 srt_composer.py 为 MIT，其余为 LGPLv3）
+• kokoro-onnx — MIT License
+• kokoro model — Apache License 2.0
+
+音频处理:
+• NumPy, SciPy — BSD License
+• sounddevice — MIT License
+• soundfile — BSD License
+• FFmpeg — LGPLv2.1 or later
+
+系统交互:
+• ollama — MIT License
+• pyperclip — BSD License
+• pywin32 — PSF License
+
+Copyright © 2025 Haodu (钟钦恒)
+
+LGPLv3 合规说明：
+本软件将 edge-tts 作为 LGPLv3 库嵌入。根据 LGPLv3 第 4 节，
+用户有权替换该库的版本。完整许可证文本、edge-tts 源代码及
+重新打包说明请见随附的 LICENSES 目录或访问：
+https://github.com/rany2/edge-tts
+
