@@ -21,9 +21,26 @@ TTS 引擎:
 
 Copyright © 2025 Haodu (钟钦恒)
 
+ 开源软件声明 ✅
+本软件包含以下第三方开源组件：
+表格
+组件	许可证	说明
+edge-tts	LGPLv3	仅 srt_composer.py 为 MIT
+kokoro-onnx	MIT	
+kokoro model	Apache 2.0	
+NumPy/SciPy	BSD 3-Clause	
+sounddevice	MIT	
+soundfile	BSD 3-Clause	
+FFmpeg	LGPLv2.1+	仅使用 LGPL 兼容组件
+ollama	MIT	
+pyperclip	BSD 3-Clause	
+pywin32	PSF License	
 LGPLv3 合规说明：
-本软件将 edge-tts 作为 LGPLv3 库嵌入。根据 LGPLv3 第 4 节，
-用户有权替换该库的版本。完整许可证文本、edge-tts 源代码及
-重新打包说明请见随附的 LICENSES 目录或访问：
-https://github.com/rany2/edge-tts
+edge-tts 源码以完整目录形式存放于 _internal/edge_tts/
+用户可直接替换该目录中的文件以使用修改版库
+完整许可证文本及替换指南见安装目录 LICENSES/ 文件夹
+Copyright © 2025 Haodu (钟钦恒)
+开源项目地址：https://github.com/rany2/edge-tts
+
+
 
